@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Required meta tags -->
+      
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+      
+        
+      
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <title>Bootstap Refresher Project</title>
+      </head>
+      
+      <body>
+        <!-- Navbar -->
+      
+        <div class="container-fluid px-0">
+          <nav style="font-family: 'Montserrat', sans-serif; font-size: 15px;  font-weight: bold;"
+            class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#"><img src="images/logos/brand-logo.png" alt="brand logo"></a>
+      
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+              aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+      
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+              <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                <li class="nav-item-custom active">
+                  <a class="nav-link" style="color:#10C9C3">HOME <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">WORK</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">SERVICES</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">TESTIMONIALS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">CONTACT</a>
+                </li>
+              </ul>
+      
+            </div>
+        </div>
+        </nav>
+        <!-- end of Navbar -->
+        <!-- jumbotron -->
+      
+        <div class="container-fluid px-0">
+          <div class="jumbotron">
+            <div class="row">
+              <div class="col-sm-6">
+              </div>
+              <div class="col-sm-5">
+                <h1 style="font-family: 'Montserrat', sans-serif; font-weight:bold;">For Saving Movies Directly To Your Computer</h1>
+                <p class="lead" style="color:grey; font-weight:normal"> We offer a huge selection of high quality movies in digital format. Our library is almost endless consistently being updated with the latest releases.</p>
+                <br>
+                <p class="lead">
+                  <a class="btn btn-lg" href="#" style="
+        border:4px solid darkred;
+        padding: 14px 28px;
+        font-size: 16px;
+        cursor: pointer;
+      background-color:red; color:white; border-radius: 0 !important; padding: 13px 49px !important;" role="button"><span
+                      style="font-family: 'Montserrat', sans-serif; font-size:14px;">Request a Movie</span></a>
+                </p>
+                <br>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br><br><br><br>
+        <!-- about us-->
+        <div class="container">
+            <div class="row text-center">
+              <div class='col-3'></div>
+              <div class='col-6'>
+                <h1 style="font-family: 'Montserrat', sans-serif; font-weight: bold; font-size:30px;">About Us</h1>
+                <br>
+                <p class="lead" style="color:grey; font-weight:normal">We offer high-quality downloads of the latest movies to be enjoyed on any device. Our team of experts provides a fast and reliable service, ensuring an easy and enjoyable experience. Enjoy the convenience of downloading your favourite films on demand and start watching.</p>
+                <br>
+                <img src="images/signature.png">
+              </div>
+              <div class='col-3'></div>
+            </div>
+          </div><br><br>
+    <main>
+      <h2>Request a Movie</h2>
+      <form id="contact-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Movie Title:</label>
+        <textarea id="message" name="message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </main>
+    <footer>
+      <p>&copy; 2023 My Online Store</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
